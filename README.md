@@ -12,10 +12,9 @@ A port scanner that scans a target IP for open ports and displays the results, b
 - Pass three arguments when executing : mode, IP, and port or port range
 
 ## Example
-- Compile
-gcc PortScanner.c -o PortScanner.Exe -lws2_32
-- Execute
-./PortScanner "tcp" "127.0.0.1" "1-1000"
+```gcc PortScanner.c -o PortScanner.Exe -lws2_32```
+then
+```./PortScanner "tcp" "127.0.0.1" "1-1000"```
 
 ## License
 MIT
